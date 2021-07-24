@@ -31,6 +31,10 @@ public class JavaVariables {
 	}
 	
 	public String toString() {
-		return collageName +"   "+studentName+"  "+studentRollNumber;
+	//	return collageName +"   "+studentName+"  "+studentRollNumber;
+		StringBuilder builder = new StringBuilder();
+		builder.append(collageName);
+		
+		return builder.toString();
 	}
 }

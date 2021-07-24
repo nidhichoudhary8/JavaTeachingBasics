@@ -29,6 +29,13 @@ public class JavaArrays {
 
 	public static void main(String[] args) {
 	      double[] myList = {1.9, 2.9, 3.4, 3.5};
+	      double[] myList1 = new double[5];
+	      myList1[0]=1.9;
+	      myList1[1]=2.9;
+	      myList1[2]=1.9;
+	      myList1[3]=2.9;
+	      myList1[4]=2.9;
+	      myList1[5]=2.9;
 	  //    double[][] myList2d = {1.9, 2.9, 3.4, 3.5};
 
 	      // Print all the array elements
